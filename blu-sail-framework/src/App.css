@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+p {
+  margin: 0;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.site-head {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  padding: 25px;
+}
+.site-head .logo-area {
+  margin-right: 30px;
+}
+.nav-bar {
+  display: flex;
+  border: 1px solid black;
+  padding-left: 30px;
+}
+.button {
+  padding: 10px 30px;
+}
+.main-top {
+  display: flex;
+  justify-content: center;
+  padding: 300px 500px;
+}
+.main-top .info-area {
+  width: 300px;
+}
+.learn-more-btn {
+  border: 1px solid black;
+  padding: 5px;
+
+}
+.banner-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./components/Images/offer.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+
+}
+.offer-box {
+  width: 28%;
+  background-color: rgba(0,0,0,.4);
+  padding: 90px 150px;
+  color: white;
+}
+.offer-box p {
+  line-height: 1.6;
+  font-weight: bold;
+}
+.offer-box h2 {
+  font-size: 30px;
+}
